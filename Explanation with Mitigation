@@ -1,0 +1,105 @@
+Cyber Kill Chain
+
+The term “kill chain” was first used as a military concept that defines the structure of an attack that covers:
+1.	The identification of the target
+2.	The force dispatch towards the target
+3.	The decision and order to attack the target
+4.	The destruction of the target
+
+Inspired by the whole kill chain concept, Lockheed Martin created the Cyber Kill Chain. It is a cybersecurity framework that offers a method to deal with 
+the intrusions on a computer network.
+
+1-Footprinting/Reconnaissance: In this step, the attacker / intruder chooses their target. Then they conduct an in-depth research on this target to identify
+its vulnerabilities that can be exploited.
+
+Footprinting/Reconnaissance is one of the methods applied to retrieve the information about the target system.
+
+Footprinting/Reconnaissance technology mostly speaks of phases at pre-attacks at the network.
+
+The Footprinting/Reconnaissance usually gathers network related information such as Network ID, domain name along with internal domain name, access control mechanisms,
+IP address, protocols, VPNs, permissions, user and group information, routing tables, system banners, press releases and news articles, remote system types, 
+web server links etc.
+
+In real time applications, there exists different Footprinting/Reconnaissance technologies like spam Footprinting, email Footprinting, Website Footprinting etc.
+
+The information gathered by different types of Footprinting/Reconnaissance tools such as traceroute, Whois lookup, Nmap tool, etc.
+
+Nmap is one of the regularly used tool to gather service and host information on the network. Zenmap is a security scanner officially used as supporting GUI for Nmap.
+The Zenmap is easy to install and to use by the users.
+
+The Footprinting/Reconnaissance can be implemented in two methods; they are active and passive Footprinting/Reconnaissance:
+
+i.	Active Footprinting/Reconnaissance: In active Footprinting/Reconnaissance the hackers directly interact with the system or application to gather 
+the information about the system. In the case of active Footprinting/Reconnaissance there is a high possibility that the target system saves the information 
+such as IP address
+
+ii.	Passive Footprinting/Reconnaissance: In this technique the hackers can collect system or application information without interacting with the system directly. Here, the search engines or public records help the hacker in collecting the information from the system.
+
+Steps to be taken to stop this phase:
+
+To handle threats in this phase, you might consider threat intelligence feeds, perimeter controls, identity, and access management, system hardening, honeypot. 
+The goal here is to put in place prevention and detection processes and technology to prevent a threat actor from obtaining too much information.
+
+
+2-Weaponization: In this step, the intruder creates a malware weapon like a virus, worm or such in order to exploit the vulnerabilities of the target. 
+Depending on the target and the purpose of the attacker, this malware can exploit new, undetected vulnerabilities (also known as the zero-day exploits) or 
+it can focus on a combination of different vulnerabilities.
+
+Steps to be taken to stop this phase:
+
+At this stage, your organization should be leveraging vulnerability scanners, patch management systems, and Intrusion Detection Systems. 
+Your security team may want to leverage the Dark Net to study the latest malware and become familiar with what’s out there on the black market. 
+The team may even be able to reverse engineer malware to combat a hacker’s attack.
+
+
+3-Delivery: This step involves transmitting the weapon to the target. The intruder / attacker can employ different methods like USB drives, e-mail attachments and 
+websites for this purpose.
+
+Steps to be taken to stop this phase:
+
+Potential security controls during the delivery phase include next-gen firewalls, next-gen IPS, email and web gateway security, DDoS mitigation tools, 
+network behaviour analysis, user and entity behavior analytics (UEBA), DNS security, NetFlow, packet analysis, and security awareness. 
+The goal in this phase is to detect and respond as quickly as possible to an active threat.
+
+
+4-Exploitation: In this step, the malware starts the action. The program code of the malware is triggered to exploit the target’s vulnerability/vulnerabilities.
+For exploit the target, attacker uses nmap nse scripts, also uses exploits of services which is available on internet, sometime uses brute force attack and many more.
+
+Steps to be taken to stop this phase:
+
+To put a stop to a threat actor in this phase, you can leverage SIEM and log management, firewalls, EPP, web application firewalls (WAF), 
+advanced threat detection technology, user and entity behavior analytics, and threat intelligence. All of these technologies will aid in detection and 
+prevention when a threat actor has entered into your network. These tools will also allow your incident responders to address a security breach quickly.
+
+
+5-Installation: In this step, the malware installs an access point for the intruder / attacker. This access point is also known as the backdoor.
+
+Steps to be taken to stop this phase:
+
+The helpful tools and technologies in this phase include EPP solutions, Managed Detection and Response, Identity and Access Management (IAM) tools, 
+incident response workflows, backups, and incident reporting.
+
+
+6-Command and Control: The malware gives the intruder / attacker access in the network/system.
+
+Steps to be taken to stop this phase:
+
+At this point, a threat actor overrides control within the IT environment and collects as much data as possible. Your incident responders should be equipped 
+with SIEM and log management, application security, NBA tools, reputation filtering, network monitoring, and more.
+
+
+7-Action on Objective: Once the attacker / intruder gains persistent access, they finally take action to fullfil their purpose, 
+such as encryption for ransom, data exfiltration or even data destruction.
+
+Steps to be taken to stop this phase:
+
+The technologies and tools that can help put a stop to data leaving the organization may include Data Loss Prevention (DLP), SIEM, UEBA, IAM, NGFWs, 
+backup and restore capabilities.
+
+
+
+
+
+
+
+
